@@ -79,7 +79,7 @@ public class Shuffler {
     for(int i=51; i>0; i++) 
     {
       Random random=new Random();
-      int x=random.nextInt(52);
+      int x=random.nextInt(51);
       values[i]=temp;
       values[i]=values[x];
       values[x]=temp;
